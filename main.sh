@@ -50,7 +50,7 @@ else
     echo Pip is successfully installed
 fi
 echo Installing sphinx via pip
-pip3 install -U sphinx
+pip3 install -U sphinx==3.5.4
 echo Adding user bin to system path
 PATH=$HOME/.local/bin:$PATH
 if ! command -v sphinx-build &>/dev/null; then
